@@ -1,7 +1,7 @@
 const newman = require('newman'); 
 newman.run({ 
  collection: require('./Collection/Customer_collection.json'), //  pointing to local JSON file. 
- //environment: require('./collection/customer_api_env.json'), // pointing  to local env file 
+ //environment: require('./Collection/Customer_Env.json'), // pointing  to local env file 
  iterationCount: 1, 
  reporters: 'htmlextra', 
  reporter: { 
